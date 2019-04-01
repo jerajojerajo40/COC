@@ -53,6 +53,7 @@ public class WizardHandler implements Listener {
 		if (checkConfig(player.getName().toString() + ".wizard.wandlevel")) {
 			wandLevel.setScore(getWandLevel(player));
 			tokens.setScore(getTokens(player));
+			//dit is een veranderning
 		}
 
 		else {
