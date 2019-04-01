@@ -15,3 +15,5 @@ public class Main {
 		Bukkit.getServer().getConsoleSender().sendMessage(prefix + ChatColor.RED + " Plugin has been disabled!");
 	}
 }
+
+// randy is poeop
