@@ -15,6 +15,5 @@ public class Main extends JavaPlugin {
 	
 	public void onDisabled() {
 		Bukkit.getServer().getConsoleSender().sendMessage(prefix + ChatColor.RED + "Plugin has been disabled!");
-		//jahh
 	}
 }
