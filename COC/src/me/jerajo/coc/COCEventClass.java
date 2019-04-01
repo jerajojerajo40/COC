@@ -10,6 +10,8 @@ public class COCEventClass implements Listener {
 	@EventHandler
 	public void onFirstJoin(PlayerJoinEvent e) {
 		Player joiner = e.getPlayer();
-		joiner.sendMessage("hallo");
+		if(!joiner.hasPlayedBefore()) {
+			joiner.sendMessage("hello");
+		}
 	}
 }
